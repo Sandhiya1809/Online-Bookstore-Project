@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The Great Adventures",
+    "author": "F. Scott Fitzgerald",
+    "price": 400,
+    "image": "assets/books11.png"
+  },
+  {
+    "title": "Science wonders",
+    "author": "Noir Writer",
+    "price": 350,
+    "image": "assets/boooks2.jpeg"
+  },
+  {
+    "title": "Night Mystery",
+    "author": "Stephen King",
+    "price": 450,
+    "image": "assets/books3.png"
+  }
+]

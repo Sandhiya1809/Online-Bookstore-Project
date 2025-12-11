@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin • Online Bookstore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <img src="assets/logo1.avif" alt="logo" class="logo-small">
+      <span>Online Bookstore</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="books-details.html">Books</a>
+      <a href="cart.html">Cart</a>
+      <a href="orders.html">My Orders</a>
+      <button id="logoutBtn4" class="btn ghost">Logout</button>
+    </nav>
+  </header>
+
+  <main class="container admin-page">
+    <h2>Admin — Manage Books</h2>
+
+    <form id="addBookForm" class="admin-form">
+      <input id="bookTitle" placeholder="Title" required>
+      <input id="bookAuthor" placeholder="Author" required>
+      <input id="bookPrice" placeholder="Price" type="number" min="0" required>
+      <input id="bookImage" placeholder="Image filename (assets/..)" required>
+      <button type="submit" class="btn primary">Add Book</button>
+    </form>
+
+    <div id="adminBookList" class="book-list admin-list"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Online Bookstore — Made with ❤</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

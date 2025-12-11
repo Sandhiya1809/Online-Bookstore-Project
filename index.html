@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home • Online Bookstore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <img src="assets/logo1.avif" alt="logo" class="logo-small">
+      <span>Online Bookstore</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="books-details.html">Books</a>
+      <a href="cart.html">Cart <span id="cartCountBadge" class="badge">0</span></a>
+      <a href="orders.html">My Orders</a> 
+      <a href="admin.html">Admin</a>
+      <button id="logoutBtn" class="btn ghost">Logout</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Find your next great read</h1>
+      <p>Handpicked books · fast checkout · safe purchase</p>
+      <a href="#catalog" class="btn primary">Browse Collection</a>
+
+    </div>
+  </section>
+
+  
+
+    <!-- 🔽 Dynamic Book Cards Will Be Inserted Here -->
+    <section id="catalog" class="catalog container">
+  <!-- ✅ All book cards (static + dynamic) will be injected here by script.js -->
+</section>
+  <footer class="site-footer">
+    <center>
+      <p>© 2025 Online Bookstore — Made with ❤</p>
+    </center>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Book Details • Online Bookstore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <img src="assets/logo1.avif" alt="logo" class="logo-small">
+      <span>Online Bookstore</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="books-details.html">Books</a>
+      <a href="cart.html">Cart <span id="cartCountBadge2" class="badge">0</span></a>
+      <a href="orders.html">My Orders</a>
+      <a href="admin.html">Admin</a>
+      <button id="logoutBtn2" class="btn ghost">Logout</button>
+    </nav>
+  </header>
+
+  <main class="container details-page">
+    <div id="bookDetailCard" class="detail-card">
+      <!-- Filled by script.js -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Online Bookstore — Made with ❤</p>
+  </footer>
+
+  <script src="js/script.js">
+     renderBookDetails();
+
+  </script>
+</body>
+</html>

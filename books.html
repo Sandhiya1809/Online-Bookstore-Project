@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BookNest | Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <img src="assets/logo1.avif" alt="logo" class="logo-small">
+      <span>BookNest</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="books-details.html">Books</a>
+      <a href="cart.html">Cart <span id="cartCountBadge" class="badge">0</span></a>
+      <a href="orders.html">My Orders</a>
+      <a href="admin.html">Admin</a>
+      <button id="logoutBtn" class="btn ghost">Logout</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Browse Our Collection</h2>
+    <div id="catalog" class="catalog book-grid"></div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

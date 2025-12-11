@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Register • Online Bookstore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="auth-page">
+    <div class="auth-card">
+      <div class="brand">
+        <img src="assets/logo1.avif" alt="Logo" class="logo">
+        <h1>Online Bookstore</h1>
+      </div>
+
+      <form id="registerForm" class="auth-form">
+        <h2>Create account</h2>
+        <input id="regName" type="text" placeholder="Full name" required>
+        <input id="regEmail" type="email" placeholder="Email" required>
+        <input id="regPassword" type="password" placeholder="Password (min 6 chars)" required minlength="6">
+        <button type="submit" class="btn primary">Register</button>
+        <p class="muted">Already have an account? <a href="login.html">Login</a></p>
+      </form>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
